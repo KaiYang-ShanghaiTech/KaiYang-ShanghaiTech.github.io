@@ -1,2 +1,2 @@
-$ touch CNAME
-$ echo 'yangkai.tech'> CNAME 
+touch CNAME
+echo 'yangkai.tech'> CNAME 
