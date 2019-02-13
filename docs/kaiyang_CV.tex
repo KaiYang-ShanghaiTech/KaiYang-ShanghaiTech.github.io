@@ -1,0 +1,222 @@
+% LaTeX Curriculum Vitae Template
+
+\documentclass{article}
+%\documentclass[10pt]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{color}
+
+
+% Set your name here
+\def\name{Kai Yang}
+\definecolor{mygrey}{gray}{0.85}
+\definecolor{homepagecolor}{RGB}{20,43,140}
+\newcommand{\homepage}[3][homepagecolor]{\href{#2}{\color{#1}{#3}}}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {economics, statistics, mathematics},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  % right=0.8in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+%\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\large}
+%\subsectionfont{\rmfamily\mdseries\itshape\normalsize}
+\subsectionfont{\normalsize\it\bfseries}
+
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.2in}
+
+\begin{minipage}{0.55\linewidth}
+  \href{http://www.shanghaitech.edu.cn}{ShanghaiTech University} \\
+  School of Information Science and Technology \\
+393 Middle Huaxia Road, Pudong, Shanghai 201210, China
+\end{minipage}\hspace{2em}
+\begin{minipage}{0.45\linewidth}
+  \begin{tabular}{ll}
+    Phone: & (86) 153-0379-6255 \\
+    Email: & \href{mailto:yangkai@shanghaitech.edu.cn}{\tt yangkai@shanghaitech.edu.cn} \\ &\\
+  \end{tabular}
+\end{minipage}
+
+
+\section*{\colorbox{mygrey}{Education~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~}}
+{\bf{ShanghaiTech University}}, Shanghai, China
+
+Ph.D. candidate in Communication and Information Systems, 09/2015-07/2020 (expected) 
+\begin{itemize}
+  \item Advisor: \homepage{http://shiyuanming.github.io/}{Prof. Yuanming Shi}
+  \item School of Information Science and Technology
+  \item Research Topic: {{Generalized Sparse and Low-Rank Optimization for Dense Wireless Networks}}
+\end{itemize}
+
+{\bf{Dalian University of Technology}}, Dalian, China
+
+B.E. in Electronic Engineering, 09/2011--07/2015
+\begin{itemize}
+\item Advisor: \homepage{http://faculty.dlut.edu.cn/GuoYanqing}{Prof. Yanqing Guo}
+\item School of Information and Communication Engineering 09/2013--07/2015
+\item Faculty of Electronic Information and Electrical Engineering 09/2011--07/2013
+\end{itemize}
+
+
+
+
+
+\section*{\colorbox{mygrey}{Honors and Awards~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~}}
+\begin{itemize}
+\item National Scholarship for Graduate Students, 2017
+\item Student Merit Award, University of Chinese Academy of Science, 2017
+\item Student Merit Award, ShanghaiTech University, 2016
+\end{itemize}
+
+\section*{\colorbox{mygrey}{Experience~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~}}
+{\bf{University of Toronto}}, Ontario, Canada
+
+Visiting student, 2019.01-2020.01
+\begin{itemize}
+\item Host: \homepage{https://www.comm.utoronto.ca/~weiyu/}{Prof. Wei Yu}
+\end{itemize}
+
+
+{\bf{University of California, Berkeley}}, California, USA
+
+Visiting student in BeSTEC program, 2016.10-2017.02
+\begin{itemize}
+\item Host: \homepage{https://people.eecs.berkeley.edu/~wainwrig/}{Prof. Martin J. Wainwright}
+\end{itemize}
+
+
+\section*{\colorbox{mygrey}{Research Interests~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~}}
+My research interests include sparse and low-rank optimization, manifold optimization, machine learning, and their applications to dense wireless networks and distributed computing systems:
+\begin{itemize}
+   \item convex and nonconvex optimization
+   \item mobile edge artificial intelligence
+   \item edge computing and caching
+   \item intelligent IoT
+ \end{itemize} 
+\section*{\colorbox{mygrey}{Publications~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~}}
+
+\subsection*{Book Chapters}
+\begin{enumerate}
+\item Y. Shi, {\bf{K. Yang}}, and Y. Yang,
+``Generalized Low-Rank Optimization for Ultra-Dense Fog-RANs," in {\emph{Ultra Dense Networks: Principles and Technologies}}, Cambridge University Press, 2019.
+\end{enumerate}
+
+\subsection*{Journal Articles}
+
+\begin{enumerate}
+\item {\bf{K. Yang}}, T. Jiang, Y. Shi, and Z. Ding, “Federated learning via over-the-air computation,” submitted.
+\item {\bf{K. Yang}}, Y. Shi, and Z. Ding, ``Data shuffling in wireless distributed computing via low-rank optimization,"
+submitted to \emph{IEEE Trans. Signal Process.}, under first round revision.
+\item {\bf{K. Yang}}, Y. Shi, and Z. Ding, ``Generalized
+low-rank optimization for topological cooperation in ultra-dense networks,"
+submitted to \emph{IEEE Trans. Wireless Commun.}, under second round revision.
+\item {{J. Dong}}, {\bf{K. Yang}}, and Y. Shi, ``Ranking from crowdsourced pairwise comparisons via smoothed Riemannian optimization," submitted to {\emph{Signal Process.}}.
+\item J. Dong, {\bf{K. Yang}}, and Y. Shi, ``Blind demixing for low-latency communication," in \emph{IEEE
+Trans. Wireless Commun.}, vol. 18, no. 2, pp. 897-911, Feb. 2019.
+\end{enumerate}
+
+\subsection*{Conference Papers}
+
+\begin{enumerate}
+\item \textbf{K. Yang}, T. Jiang, Y. Shi, and Z. Ding, ``Federated learning based on over-the-air computation,'' in \textit{Proc. IEEE Int. Conf. Commun. (ICC)}, Shanghai, China, May 2019.
+\item T. Jiang, \textbf{K. Yang}, and Y. Shi, ``Pliable data shuffling for on-device distributed learning,'' in \textit{Proc. IEEE Int. Conf. Acoust. Speech Signal Process. (ICASSP)}, Brighton, UK, May 2019.
+
+\item \textbf{K. Yang}, Y. Shi, and Z. Ding, ``Low-rank optimization for data shuffling in wireless distributed computing,'' in \textit{Proc. IEEE Int. Conf. Acoust. Speech Signal Process. (ICASSP)}, Alberta, Canada,
+        Apr. 2018.
+        \item J. Dong, \textbf{K. Yang}, and Y. Shi, ``Blind demixing for low-latency communication,'' in \textit{Proc. IEEE Wireless Commun. Networking Conf. (WCNC)}, Barcelona, Spain, Apr. 2018.
+        \item \textbf{K. Yang}, Y. Shi, and Z. Ding, ``Generalized matrix completion for low complexity transceiver processing in cache-aided Fog-RAN via the Burer-Monteiro approach,'' in \textit{Proc. IEEE Global Conf. Signal and Inf. Process. (GlobalSIP)}, Montreal, Canada, Nov. 2017.
+        \item J. Dong, \textbf{K. Yang}, and Y. Shi, ``Ranking from crowdsourced pairwise comparisons via smoothed matrix manifold optimization,'' in \textit{ICDM Workshops on Data-driven Discovery of Models (D3M)}, New Orleans, Louisiana, USA, Nov. 2017.
+        \item \textbf{K. Yang}, Y. Shi, J. Zhang, Z. Ding and K. B. Letaief, ``A low-rank approach for interference management in dense wireless networks,'' in \textit{Proc. IEEE Global Conf. Signal and Inf. Process.(GlobalSIP)}, Washington, DC, Dec. 2016.
+        \item \textbf{K. Yang}, Y. Shi, and Z. Ding, ``Low-rank matrix completion for mobile edge caching in Fog-RAN via Riemannian optimization,'' in \textit{Proc. IEEE Global Commun. Conf. (Globecom)}, Washington, DC, Dec. 2016.
+        
+        
+\end{enumerate}
+
+
+\section*{\colorbox{mygrey}{Technical Backgrounds ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~}}
+\subsection*{Mathematics}
+\begin{minipage}{0.28\linewidth}
+ Matrix Analysis
+\end{minipage} 
+\begin{minipage}{0.4\linewidth}
+Stochastic Processes
+\end{minipage} 
+\begin{minipage}{0.32\linewidth}
+ 
+\end{minipage} 
+
+\subsection*{Optimization} 
+\begin{minipage}{0.28\linewidth}
+Convex Optimization
+\end{minipage}
+\begin{minipage}{0.4\linewidth}
+Riemannian Optimization
+\end{minipage}
+\begin{minipage}{0.32\linewidth}
+
+\end{minipage}
+
+\subsection*{Applied Mathematics and Engineering}
+\begin{minipage}{0.28\linewidth}
+Machine Learning
+\end{minipage}
+\begin{minipage}{0.20\linewidth}
+Deep Learning
+\end{minipage}
+\begin{minipage}{0.25\linewidth}
+Communication Theory
+\end{minipage}
+\begin{minipage}{0.25\linewidth}
+Detection and Estimation
+\end{minipage}
+
+
+
+\section*{\colorbox{mygrey}{Computer Skills~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~}}
+
+Matlab,  Python.
+
+
+% \bigskip
+% % Footer
+% \begin{center}
+%   \begin{footnotesize}
+%     Last updated: \today
+%   \end{footnotesize}
+% \end{center}
+
+\end{document}
+
