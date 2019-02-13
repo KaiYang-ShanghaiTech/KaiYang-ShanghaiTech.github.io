@@ -1,0 +1,16 @@
+# jemdoc: menu{MENU}{home.html}, nofooter
+# jemdoc: nodefaultcss, addcss{home.css}
+#= Kai Yang 杨恺
+#"You gotta protect it!"   --- /The Pursuit of Happiness/\n
+~~~
+{}{img_left}{docs/yangkai.JPG}{alt text}{280px}{HEIGHTpx}
+*PhD Candidate* 09\/2015 - 07\/2020 (expected) [docs/kaiyang_CV.pdf \[Resume\]]
+
+School of Information Science and Technology (SIST), ShanghaiTech University
+
+Email: yangkai@shanghaitech.edu.cn
+
+Web: http:\/\/yangkai.tech
+
+*Research interests*: 
+convex and nonconvex optimization, federated learning, mobile AI, and intelligent IoT. 
